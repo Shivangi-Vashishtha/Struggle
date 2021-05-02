@@ -12,6 +12,7 @@ public class JDBC_Insert {
 		Class.forName("com.mysql.jdbc.Driver");
 		int userid=3;
 		String usname="Saloni";
+		
 		Connection con=DriverManager.getConnection(url,username,password);
 		PreparedStatement sc=con.prepareStatement(str);
 		sc.setInt(1,userid);
