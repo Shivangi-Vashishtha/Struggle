@@ -54,7 +54,7 @@ public class JDBC_DAO
 		catch (Exception e)
 		{
 			System.out.println(e);
-			System.out.println("ERROR OCCURED"
+			System.out.println("ERROR OCCURED");
 		}
 		return null;
 		
